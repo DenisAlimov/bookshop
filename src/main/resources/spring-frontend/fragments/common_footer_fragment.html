@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<body>
+<p  th:fragment="commonFragment">
+    <span th:text="#{bottombar.language}">Выбор языка</span>
+    <select id="locales">
+        <option value=" "></option>
+        <option value="en">English</option>
+        <option value="ru">Русский</option>
+    </select>
+</p>
+</body>
+</html>

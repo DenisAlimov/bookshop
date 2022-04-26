@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <changeSet author="exyst (generated)" id="1650884584452-1">
+        <createSequence sequenceName="authors_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-2">
+        <createSequence sequenceName="authors_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-3">
+        <createSequence sequenceName="authors_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-4">
+        <createSequence sequenceName="authors_id_seq3"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-5">
+        <createSequence sequenceName="authors_id_seq4"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-6">
+        <createSequence sequenceName="authors_id_seq5"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-7">
+        <createSequence sequenceName="balance_transaction_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-8">
+        <createSequence sequenceName="balance_transaction_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-9">
+        <createSequence sequenceName="balance_transaction_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-10">
+        <createSequence sequenceName="book2author_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-11">
+        <createSequence sequenceName="book2author_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-12">
+        <createSequence sequenceName="book2author_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-13">
+        <createSequence sequenceName="book2genre_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-14">
+        <createSequence sequenceName="book2genre_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-15">
+        <createSequence sequenceName="book2genre_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-16">
+        <createSequence sequenceName="book2user_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-17">
+        <createSequence sequenceName="book2user_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-18">
+        <createSequence sequenceName="book2user_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-19">
+        <createSequence sequenceName="book2user_type_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-20">
+        <createSequence sequenceName="book2user_type_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-21">
+        <createSequence sequenceName="book2user_type_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-22">
+        <createSequence sequenceName="book_file_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-23">
+        <createSequence sequenceName="book_file_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-24">
+        <createSequence sequenceName="book_file_type_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-25">
+        <createSequence sequenceName="book_file_type_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-26">
+        <createSequence sequenceName="book_file_type_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-27">
+        <createSequence sequenceName="book_review_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-28">
+        <createSequence sequenceName="book_review_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-29">
+        <createSequence sequenceName="book_review_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-30">
+        <createSequence sequenceName="book_review_like_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-31">
+        <createSequence sequenceName="book_review_like_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-32">
+        <createSequence sequenceName="book_review_like_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-33">
+        <createSequence sequenceName="books_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-34">
+        <createSequence sequenceName="books_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-35">
+        <createSequence sequenceName="books_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-36">
+        <createSequence sequenceName="books_id_seq3"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-37">
+        <createSequence sequenceName="books_id_seq4"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-38">
+        <createSequence sequenceName="books_id_seq5"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-39">
+        <createSequence sequenceName="books_id_seq6"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-40">
+        <createSequence sequenceName="document_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-41">
+        <createSequence sequenceName="document_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-42">
+        <createSequence sequenceName="document_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-43">
+        <createSequence sequenceName="faq_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-44">
+        <createSequence sequenceName="faq_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-45">
+        <createSequence sequenceName="faq_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-46">
+        <createSequence sequenceName="file_download_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-47">
+        <createSequence sequenceName="file_download_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-48">
+        <createSequence sequenceName="file_download_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-49">
+        <createSequence sequenceName="genre_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-50">
+        <createSequence sequenceName="genre_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-51">
+        <createSequence sequenceName="genre_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-52">
+        <createSequence sequenceName="message_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-53">
+        <createSequence sequenceName="message_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-54">
+        <createSequence sequenceName="message_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-55">
+        <createSequence sequenceName="test_entity_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-56">
+        <createSequence sequenceName="user_contact_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-57">
+        <createSequence sequenceName="user_contact_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-58">
+        <createSequence sequenceName="user_contact_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-59">
+        <createSequence sequenceName="users_id_seq"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-60">
+        <createSequence sequenceName="users_id_seq1"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-61">
+        <createSequence sequenceName="users_id_seq2"/>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-62">
+        <createTable tableName="authors">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="authors_pkey"/>
+            </column>
+            <column name="first_name" type="VARCHAR(255)"/>
+            <column name="last_name" type="VARCHAR(255)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-63">
+        <createTable tableName="balance_transaction">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="balance_transaction_pkey"/>
+            </column>
+            <column name="book_id" type="INT"/>
+            <column name="description" type="VARCHAR(255)"/>
+            <column name="time" type="date"/>
+            <column name="user_id" type="INT"/>
+            <column name="value" type="INT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-64">
+        <createTable tableName="book2author">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="book2author_pkey"/>
+            </column>
+            <column name="author_id" type="INT"/>
+            <column name="book_id" type="INT"/>
+            <column name="sort_index" type="INT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-65">
+        <createTable tableName="book2genre">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="book2genre_pkey"/>
+            </column>
+            <column name="book_id" type="INT"/>
+            <column name="genre_id" type="INT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-66">
+        <createTable tableName="book2user">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="book2user_pkey"/>
+            </column>
+            <column name="book_id" type="INT"/>
+            <column name="time" type="TIMESTAMP(6) WITHOUT TIME ZONE"/>
+            <column name="type_id" type="INT"/>
+            <column name="user_id" type="INT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-67">
+        <createTable tableName="book2user_type">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="book2user_type_pkey"/>
+            </column>
+            <column name="code" type="VARCHAR(255)"/>
+            <column name="name" type="VARCHAR(255)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-68">
+        <createTable tableName="book_file">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="book_file_pkey"/>
+            </column>
+            <column name="hash" type="VARCHAR(255)"/>
+            <column name="path" type="VARCHAR(255)"/>
+            <column name="type_id" type="INT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-69">
+        <createTable tableName="book_file_type">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="book_file_type_pkey"/>
+            </column>
+            <column name="description" type="VARCHAR(255)"/>
+            <column name="name" type="VARCHAR(255)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-70">
+        <createTable tableName="book_review">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="book_review_pkey"/>
+            </column>
+            <column name="book_id" type="INT"/>
+            <column name="text" type="VARCHAR(255)"/>
+            <column name="time" type="TIMESTAMP(6) WITHOUT TIME ZONE"/>
+            <column name="user_id" type="INT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-71">
+        <createTable tableName="book_review_like">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="book_review_like_pkey"/>
+            </column>
+            <column name="review_id" type="INT"/>
+            <column name="time" type="TIMESTAMP(6) WITHOUT TIME ZONE"/>
+            <column name="user_id" type="INT"/>
+            <column name="value" type="SMALLINT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-72">
+        <createTable tableName="books">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="books_pkey"/>
+            </column>
+            <column name="price" type="VARCHAR(255)"/>
+            <column name="price_old" type="VARCHAR(255)"/>
+            <column name="title" type="VARCHAR(255)"/>
+            <column name="author_id" type="INT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-73">
+        <createTable tableName="document">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="document_pkey"/>
+            </column>
+            <column name="slug" type="VARCHAR(255)"/>
+            <column name="sort_index" type="INT"/>
+            <column name="text" type="VARCHAR(255)"/>
+            <column name="title" type="VARCHAR(255)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-74">
+        <createTable tableName="faq">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="faq_pkey"/>
+            </column>
+            <column name="answer" type="VARCHAR(255)"/>
+            <column name="question" type="VARCHAR(255)"/>
+            <column name="sort_index" type="INT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-75">
+        <createTable tableName="file_download">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="file_download_pkey"/>
+            </column>
+            <column name="book_id" type="INT"/>
+            <column name="count" type="INT"/>
+            <column name="user_id" type="INT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-76">
+        <createTable tableName="genre">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="genre_pkey"/>
+            </column>
+            <column name="name" type="VARCHAR(255)"/>
+            <column name="parent_id" type="INT"/>
+            <column name="slug" type="VARCHAR(255)"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-77">
+        <createTable tableName="message">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="message_pkey"/>
+            </column>
+            <column name="email" type="VARCHAR(255)"/>
+            <column name="name" type="VARCHAR(255)"/>
+            <column name="subject" type="VARCHAR(255)"/>
+            <column name="text" type="VARCHAR(255)"/>
+            <column name="time" type="TIMESTAMP(6) WITHOUT TIME ZONE"/>
+            <column name="user_id" type="INT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-78">
+        <createTable tableName="user_contact">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="user_contact_pkey"/>
+            </column>
+            <column name="approved" type="SMALLINT"/>
+            <column name="code" type="VARCHAR(255)"/>
+            <column name="code_time" type="TIMESTAMP(6) WITHOUT TIME ZONE"/>
+            <column name="code_trails" type="INT"/>
+            <column name="contact" type="VARCHAR(255)"/>
+            <column name="type" type="INT"/>
+            <column name="user_id" type="INT"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-79">
+        <createTable tableName="users">
+            <column autoIncrement="true" name="id" type="SERIAL">
+                <constraints primaryKey="true" primaryKeyName="users_pkey"/>
+            </column>
+            <column name="balance" type="INT"/>
+            <column name="hash" type="VARCHAR(255)"/>
+            <column name="name" type="VARCHAR(255)"/>
+            <column name="reg_time" type="TIMESTAMP(6) WITHOUT TIME ZONE"/>
+        </createTable>
+    </changeSet>
+    <changeSet author="exyst (generated)" id="1650884584452-80">
+        <addForeignKeyConstraint baseColumnNames="author_id" baseTableName="books" constraintName="fkfjixh2vym2cvfj3ufxj91jem7" deferrable="false" initiallyDeferred="false" onDelete="NO ACTION" onUpdate="NO ACTION" referencedColumnNames="id" referencedTableName="authors"/>
+    </changeSet>
+</databaseChangeLog>
